@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import ListItem from "../components/ListItem";
 
 import topRoad from "../public/top-road.png";
@@ -34,6 +35,9 @@ const steps = [
 export default function Home() {
   return (
     <div className="overflow-hidden relative">
+      <Head>
+        <title>Save Route 66 and Win</title>
+      </Head>
       <div className="absolute left-0 right-0 m-auto z-10 -top-32 md:-top-72 lg:-top-[1000px] w-full max-w-6xl object-cover">
         <Image
           src={topRoad}
