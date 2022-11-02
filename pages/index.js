@@ -72,7 +72,7 @@ export default function Home() {
           <p className="block mt-24 text-center text-white font-light md:text-xl">{`*Limited to the first 50 attendees each hour of the show (9-10am and 4-5pm). Only 100 each day. Road closes when we're out. Don't sleep on this.`}</p>
         </section>
         <section className="my-24">
-          <h3 className="text-center text-white font-bold text-3xl md:text-5xl">{`Want to know more about how we're helping save Route 66?`}</h3>
+          <h3 className="text-center text-white font-bold text-3xl md:text-5xl">{`Want to know more about how we're helping support Route 66?`}</h3>
           <a
             href="https://www.mobil.com/en/lubricants/route66"
             target="_blank"
